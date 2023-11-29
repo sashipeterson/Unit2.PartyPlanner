@@ -87,19 +87,6 @@ function renderEvents() {
 eventList.replaceChildren(...eventCards);
 }
 
-// for (let i = 0; i < state.artists.length; i++) {
-//   const artistElement = document.createElement('p');
-//   artistElement.innerText = state.artists[i].name;
-//   artistList.append(artistElement);
-// }
-
-// state.artists.forEach(artist => {
-//   const artistElement = document.createElement('div');
-//   artistElement.textContent = artist.name;
-//   document.querySelector('body').append(artistElement);
-// });
-
-
 async function addEvent(event) {
   event.preventDefault();
 
